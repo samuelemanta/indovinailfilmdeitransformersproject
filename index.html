@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Indovina il film dei Transformers!</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="game-container">
+    <h1>Indovina il film dei Transformers!</h1>
+
+    <h2>Punteggio: <span id="score">0</span>/25</h2>
+    <h2>Immagini mostrate: <span id="shown">0</span>/25</h2>
+
+    <div class="image-wrapper">
+      <img id="movieImage" src="" alt="Transformers scene">
+    </div>
+
+    <div class="options">
+      <button class="choice"></button>
+      <button class="choice"></button>
+      <button class="choice"></button>
+      <button class="choice"></button>
+      <button class="choice"></button>
+    </div>
+
+    <p id="feedback"></p>
+
+    <button id="nextBtn" class="next-btn">Prossima Immagine</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
